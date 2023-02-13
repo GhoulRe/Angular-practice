@@ -1,0 +1,16 @@
+
+
+
+<ng-container *ngIf="dropdownFetchData">
+    <!-- <app-component-a></app-component-a> -->
+
+    <div class="ejs-drop fw-bold">
+        <ejs-dropdownlist id='ddlelement' class="drop-downSync" [dataSource]='data' popupHeight='200px' popupWidth='200px' placeholder='Select a component' (change)="onChange($event)"></ejs-dropdownlist>
+    </div>
+    <!-- {{data}}  -->
+</ng-container>
+
+<!-- <ng-container *ngIf="selectedvalue">
+    <app-component-b></app-component-b> 
+ {{selectedvalue}}   
+</ng-container> -->

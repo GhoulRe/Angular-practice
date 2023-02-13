@@ -1,0 +1,11 @@
+<div class="fetch_container text-light fw-bold">
+    <div class="data-fetch-div" *ngFor="let data of newFetchData.data">
+        <div>
+            <img class="api_profile_image" src={{data.avatar}} alt="profile_image">
+        </div>
+        <div class="api_data">
+            <h5>Name:{{data.first_name}} {{data.last_name}}</h5>
+            <p>Email: {{data.email}}</p>
+        </div>
+    </div>
+</div>

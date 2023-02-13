@@ -1,0 +1,20 @@
+<span>directive</span> <input [(ngModel)]="amount3" (keypress)="restrictInput($event)" inputmode="numeric"
+    appCurrencyFormat (keydown.enter)="log()"> <br>
+<br>
+{{ amount3}}
+
+
+<div class="container mt-5 mb-5 pl-5 ">
+    <div class="row">
+      <form [formGroup]="form">
+  
+        <div class="form-group">
+          <label for="currency-number">Current Balance</label>
+  
+          <input class="form-control"  type="text" appCurrencyMask  formControlName="currency" id="currency-number"  >
+        </div>
+  
+      </form>
+    </div>
+  </div> 
+

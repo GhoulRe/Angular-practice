@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkangular=self.webpackChunkangular||[]).push([[592],{1562:(u,r,e)=>{e.d(r,{D:()=>a});var c=e(1571);class a{constructor(){}setData(t){this.data=t}getData(){return this.data}}a.\u0275fac=function(t){return new(t||a)},a.\u0275prov=c.Yz7({token:a,factory:a.\u0275fac,providedIn:"root"})}}]);

@@ -1,0 +1,11 @@
+.childdiv{
+    width: 400px;
+    height: 250px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: gray;
+    color:whitesmoke;
+}
